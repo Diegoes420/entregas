@@ -1,0 +1,19 @@
+{
+  "name": "enrega-grid-responsive",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Diego Escudero</h1>\r <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diegoes420/diego-responsive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diegoes420/diego-responsive/issues"
+  },
+  "homepage": "https://github.com/Diegoes420/diego-responsive#readme"
+}

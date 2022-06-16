@@ -1,0 +1,96 @@
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 22px;
+}
+
+.body {
+    letter-spacing: 0.3px;
+    font-family: "Verdana", Helvetica, Arial, sans-serif;
+    display: grid;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: url(./imgs/25101.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Inicio GRID */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        'div-cebecera'
+        'row'
+        'container-inicio'
+        'lista-servicios'
+        'grid-staff'
+        'Nosotras-section'
+        'container-turno'
+        'container-footer'
+        'boton-seguir'
+    ;
+}
+
+.div-cebecera {
+    grid-area: div-cebecera;
+}
+
+.row {
+    grid-area: row;
+}
+
+.container-inicio {
+    grid-area: container-inicio;
+}
+
+.lista-servicios {
+    grid-area: lista-servicios;
+}
+
+.grid-staff {
+    grid-area: grid-staff;
+}
+
+.Nosotras-section {
+    grid-area: Nosotras-section;
+}
+
+.container-turno {
+    grid-area: container-turno;
+}
+
+.container-footer {
+    grid-area: container-footer;
+}
+
+.boton-seguir {
+    grid-area: boton-seguir;
+}
+
+.boton-seguir {
+    position: sticky;
+    bottom: 100px;
+    left: 95%;
+}
+/* Fin GRID */
+
+/* --- RESPONSIVE --- */
+
+
+@media screen and (max-width: 800px) {
+    .profe {
+        display: none; 
+    }
+    .present {
+        display: block;
+    }
+    .ul-servicios {
+        flex-direction: column;
+    }
+}

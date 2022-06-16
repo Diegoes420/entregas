@@ -1,0 +1,14 @@
+//variables
+$color-cabecera: rgba(228, 218, 181, 0.7176470588);
+$color-navbar: rgba(38, 129, 106, 0.8823529412);
+$color-principal: rgba(134, 116, 42, 0.3843137255);
+$color-lema: #65666C;
+$color-letras-titulos: rgb(6, 6, 31);
+$color-letras-grises: #65666C;
+$margenes-titulos: 20px;
+
+// mixing
+@mixin f-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}

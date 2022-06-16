@@ -1,0 +1,56 @@
+/* Inicio Turnos/Contacto */
+
+.texto-contacto {
+    font-size: 1.5rem;
+    margin: 20px;
+    color: rgb(6, 6, 31);
+    padding-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.img-contacto {
+    max-width: 100%;
+    width: 20%;
+    max-height: 80vh;
+    float: right;
+    object-fit: cover;
+    margin-right: 5rem;
+}
+
+.img-whatsapp {
+    max-height: 80px;
+    z-index: -1;
+}
+
+.img-mail {
+    width: 25%;
+    max-height: 80px;
+    height: auto;
+    z-index: -1;
+}
+
+.ul-turnos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    color: #65666C;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.wtsapp {
+    flex-direction: column;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.mail {
+    flex-direction: column;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/* Fin Turnos/Contactos */

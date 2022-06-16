@@ -1,0 +1,25 @@
+//iniciando canversion a sass
+
+
+
+//nesting
+
+.div-cebecera {
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+    background-color: $color-cabecera;
+    flex-wrap: wrap;
+    .ul-cabecera {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .li-cebecera {
+        display: inline;
+        text-align: right;
+        margin: 0px 10px;
+      }
+    .Cabecera {
+        font-size: 0.6rem;
+      }
+}
