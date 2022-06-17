@@ -1,5 +1,4 @@
 @import "../scss/base/variables";
-@import "../scss/base/nesting";
 @import "../scss/base/mixing";
 @import "../scss/base/extends";
 @import "../scss/components/estructura";
@@ -11,9 +10,11 @@
 @import "../scss/components/turno-contacto";
 @import "../scss/components/footer";
 
+/* medias queries*/
+
 @media screen and (max-width: 800px) {
     .profe {
-        display: none; 
+        display: none !important; 
     }
     .present {
         display: block;

@@ -4,35 +4,32 @@
     background-color: #86742a62;
     display: flex;
     justify-content: space-between;
-}
-
-.present {
-    display: flex;
-    color: rgb(6, 6, 31);
-    text-decoration: none;
-    height: 21.5em;
-    align-items: center;
-}
-
-.principal-lema {
-    color: #65666C;
-    margin-bottom: 0;
-}
-
-.profe {
-    display: flex;
-    padding-left: 2.3rem;
-    flex-direction: column;
-    margin-right: 5rem;
-}
-
-.drai {
-    font-size: 1.6rem;
-}
-
-.draf {
-    padding: 0.5rem 0rem;
-    font-size: 1.6rem;
+    .present {
+        display: flex;
+        color: rgb(6, 6, 31);
+        text-decoration: none;
+        height: 21.5em;
+        align-items: center;
+        .profe {
+            display: flex;
+            padding-left: 2.3rem;
+            flex-direction: column;
+            margin-right: 5rem;
+            .drai {
+                font-size: 1.6rem;
+            }
+            
+            .draf {
+                padding: 0.5rem 0rem;
+                font-size: 1.6rem;
+            }
+            .principal-lema {
+                color: #65666C;
+                margin-bottom: 0;
+            }
+        }
+    }
+    
 }
 
 .d-block {

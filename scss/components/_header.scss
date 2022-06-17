@@ -1,6 +1,28 @@
 @import "../base/mixing";
 
 /* inicio Header */
+
+
+.div-cebecera {
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+    background-color: $color-cabecera;
+    flex-wrap: wrap;
+    .ul-cabecera {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .li-cebecera {
+        display: inline;
+        text-align: right;
+        margin: 0px 10px;
+      }
+    .Cabecera {
+        font-size: 0.6rem;
+      }
+}
+
 .div-contenedor {
     @include f-wrap;
 }
@@ -13,35 +35,32 @@
     background-color: #26816ae1;
     margin: 0 !important;
     padding: 0 !important;
-}
-
-.logo-consultorio {
-    padding-left: 2rem;
+    .logo-consultorio {
+        padding-left: 2rem;
+    }
 }
 
 .navbar-nav {
     flex-wrap: wrap;
-}
-
-.nav-item {
-    padding-left: 1rem;
-}
-
-.a-navbar {
-    height: 60px;
-    width: 3.5rem;
-    border-radius: 8px;
-    padding: 12px 5px 8px 5px;
-    margin: 50px 5px;
-    text-decoration: none;
-    color: #ece7e7d3;
-    transition: all 0.6s;
-    font-family: 'Tiro Gurmukhi', serif;
-    &:hover {
-        background-color: #e4dab5b7;
-        border-bottom: 2px solid #00000521;
-        color: rgb(6, 6, 31);
-    }
+    .nav-item {
+        padding-left: 1rem;
+        .a-navbar {
+            height: 60px;
+            width: 3.5rem;
+            border-radius: 8px;
+            padding: 12px 5px 8px 5px;
+            margin: 50px 5px;
+            text-decoration: none;
+            color: #ece7e7d3;
+            transition: all 0.6s;
+            font-family: 'Tiro Gurmukhi', serif;
+            &:hover {
+                background-color: #e4dab5b7;
+                border-bottom: 2px solid #00000521;
+                color: rgb(6, 6, 31);
+            }
+        }
+    } 
 }
 
 /* Fin Header */
