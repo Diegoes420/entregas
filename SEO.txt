@@ -1,4 +1,4 @@
-CAMBIOS PARA CEO:
+CAMBIOS PARA SEO:
 -Paso de imagentes a .webp
 -Control de todas las Alt
 -Utilizacion de un h1 en el nombre de la odontologa principal del consultorio
