@@ -1,0 +1,6 @@
+CAMBIOS PARA CEO:
+-Paso de imagentes a .webp
+-Control de todas las Alt
+-Utilizacion de un h1 en el nombre de la odontologa principal del consultorio
+-Agregado de <meta>s como se explico en clase, elijiendo las palabras claves y cumpliendo lo recomentado en cuanto a caracteres.
+-Cambio de title para cumplir con los caracteres recomendados
