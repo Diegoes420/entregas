@@ -1,0 +1,23 @@
+@import "../scss/base/variables";
+@import "../scss/base/nesting";
+@import "../scss/base/mixing";
+@import "../scss/components/estructura";
+@import "../scss/components/header";
+@import "../scss/components/presentacion";
+@import "../scss/components/servicios";
+@import "../scss/components/staff";
+@import "../scss/components/nosotras";
+@import "../scss/components/turno-contacto";
+@import "../scss/components/footer";
+
+@media screen and (max-width: 800px) {
+    .profe {
+        display: none; 
+    }
+    .present {
+        display: block;
+    }
+    .ul-servicios {
+        flex-direction: column;
+    }
+}

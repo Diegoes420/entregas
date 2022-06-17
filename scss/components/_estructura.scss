@@ -17,7 +17,7 @@ html {
     max-width: 100%;
     margin: 0 !important;
     padding: 0 !important;
-    background-image: url(./imgs/25101.jpg) !important;
+    background-image: url(../../imgs/25101.jpg) !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -81,16 +81,3 @@ html {
 /* Fin GRID */
 
 /* --- RESPONSIVE --- */
-
-
-@media screen and (max-width: 800px) {
-    .profe {
-        display: none; 
-    }
-    .present {
-        display: block;
-    }
-    .ul-servicios {
-        flex-direction: column;
-    }
-}

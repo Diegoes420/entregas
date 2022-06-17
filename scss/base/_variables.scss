@@ -6,9 +6,3 @@ $color-lema: #65666C;
 $color-letras-titulos: rgb(6, 6, 31);
 $color-letras-grises: #65666C;
 $margenes-titulos: 20px;
-
-// mixing
-@mixin f-wrap {
-    display: flex;
-    flex-wrap: wrap;
-}
