@@ -18,6 +18,13 @@
   font-size: 0.6rem;
 }
 
+.texto-contacto, .texto-nosotras, .texto-staff, .texto-servicio {
+  font-size: 1.5rem;
+  margin: 20px;
+  color: rgb(6, 6, 31);
+  padding-top: 160px;
+}
+
 /* CSS */
 * {
   margin: 0;
@@ -182,14 +189,14 @@ html {
 }
 
 /* Fin Presentacion  */
-/* Inicio Servicios */
-.texto-servicio {
+.texto-contacto, .texto-nosotras, .texto-staff, .texto-servicio {
   font-size: 1.5rem;
   margin: 20px;
   color: rgb(6, 6, 31);
   padding-top: 160px;
 }
 
+/* Inicio Servicios */
 .servicios {
   display: flex;
   justify-content: space-around;
@@ -245,14 +252,14 @@ html {
 }
 
 /* Fin Servicios */
-/* Inicio Staff */
-.texto-staff {
+.texto-contacto, .texto-nosotras, .texto-staff, .texto-servicio {
   font-size: 1.5rem;
   margin: 20px;
   color: rgb(6, 6, 31);
-  padding: 160px 0px;
+  padding-top: 160px;
 }
 
+/* Inicio Staff */
 .staff {
   display: flex;
   justify-content: space-evenly;
@@ -263,14 +270,14 @@ html {
 }
 
 /* Fin Staff */
-/* Inicio Nosotras */
-.texto-nosotras {
+.texto-contacto, .texto-nosotras, .texto-servicio, .texto-staff {
   font-size: 1.5rem;
   margin: 20px;
   color: rgb(6, 6, 31);
   padding-top: 160px;
 }
 
+/* Inicio Nosotras */
 .texto {
   color: #65666C;
   text-align: justify;
@@ -278,12 +285,15 @@ html {
 }
 
 /* Fin Nosotras */
-/* Inicio Turnos/Contacto */
-.texto-contacto {
+.texto-contacto, .texto-servicio, .texto-staff, .texto-nosotras {
   font-size: 1.5rem;
   margin: 20px;
   color: rgb(6, 6, 31);
   padding-top: 160px;
+}
+
+/* Inicio Turnos/Contacto */
+.texto-contacto {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;

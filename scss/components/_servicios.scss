@@ -1,10 +1,9 @@
+@import "../base/extends";
+
 /* Inicio Servicios */
 
 .texto-servicio {
-    font-size: 1.5rem;
-    margin: 20px;
-    color: rgb(6, 6, 31);
-    padding-top: 160px;
+    @extend %titulos;
 }
 
 .servicios {
