@@ -374,5 +374,8 @@ html {
     flex-direction: column;
   }
 }
+.disclaimer {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
