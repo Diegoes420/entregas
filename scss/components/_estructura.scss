@@ -81,3 +81,32 @@ html {
 /* Fin GRID */
 
 /* --- RESPONSIVE --- */
+
+@media screen and (max-width: 800px) {
+    .ul-servicios {
+        flex-direction: column;
+    }
+    .li-servicios {
+        margin-bottom: 20px;
+        &:first-child {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .profe {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .present {
+        display: block;
+    }
+    .staff-irene {
+        margin-bottom: 20px;
+    }
+}
