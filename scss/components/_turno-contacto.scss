@@ -4,46 +4,61 @@
 
 .texto-contacto {
     @extend %titulos;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-around;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    margin-bottom: 0px;
 }
 
 .img-contacto {
     max-width: 100%;
-    width: 20%;
-    max-height: 80vh;
-    float: right;
+    width: 25%;
+    position: relative;
+    left:  70%;
     object-fit: cover;
-    margin-right: 5rem;
 }
 
 .img-whatsapp {
-    max-height: 80px;
-    z-index: -1;
+    width: 25%;
+    max-height: 95px;
+    height: auto;
+    margin-bottom: 1.2rem;
 }
 
 .img-mail {
     width: 25%;
-    max-height: 80px;
+    max-height: 95px;
     height: auto;
-    z-index: -1;
+    margin-bottom: 1.2rem;
 }
 
 .ul-turnos {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
-    color: #65666C;
     flex-wrap: wrap;
     text-align: center;
+    text-align: justify;
+}
+
+.consultas {
+    font-size: 1rem;
+    color: #65666C;
+    margin: 0px;
+}
+.n {
+    color: #2b2b2c;
+    font-size: 1.2rem;
+    margin: 0px;
+    font-weight: 600;
 }
 
 .wtsapp {
     flex-direction: column;
     margin-bottom: 60px;
     text-align: center;
+
 }
 
 .mail {

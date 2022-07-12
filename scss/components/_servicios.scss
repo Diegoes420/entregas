@@ -21,6 +21,13 @@
                 width: 14rem;
                 vertical-align: middle;
                 padding: 0rem 0.5rem;
+                &:hover {
+                    .foto-servicio {
+                        transform: scale(1.15);
+                        border-top-left-radius: 15px;
+                        border-top-right-radius: 15px;
+                    }
+                }
                 .sss {
                     overflow: hidden;
                     vertical-align: middle;

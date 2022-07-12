@@ -15,4 +15,33 @@
     flex-wrap: wrap;
 }
 
+.staff-fiore {
+    &:hover {
+        .cont_ft_fiore {
+            border: 3px solid #1ca180;
+        }
+    }
+}
+
+.staff-irene {
+    @extend .staff-fiore;
+}
+
+.cont_ft_fiore {
+    margin: auto;
+    overflow: hidden;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100%;
+    vertical-align: top;
+    border: 3px solid #2A836D;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.cont_ft_irene {
+    @extend .cont_ft_fiore;
+}
+
 /* Fin Staff */

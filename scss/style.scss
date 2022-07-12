@@ -13,14 +13,31 @@
 /* medias queries*/
 
 @media screen and (max-width: 800px) {
+    .ul-servicios {
+        flex-direction: column;
+    }
+    .li-servicios {
+        margin-bottom: 20px;
+        &:first-child {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
     .profe {
-        display: none !important; 
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .carousel {
+        width: 100%;
     }
     .present {
         display: block;
     }
-    .ul-servicios {
-        flex-direction: column;
+    .staff-irene {
+        margin-bottom: 20px;
     }
 }
 

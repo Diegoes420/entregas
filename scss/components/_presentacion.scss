@@ -2,8 +2,8 @@
 
 .container-inicio {
     background-color: #86742a62;
-    display: flex;
-    justify-content: space-between;
+/*     display: flex;
+    justify-content: space-between; */
     .present {
         display: flex;
         color: rgb(6, 6, 31);
@@ -11,10 +11,13 @@
         height: 21.5em;
         align-items: center;
         .profe {
-            display: flex;
+            /* display: flex;
             padding-left: 2.3rem;
             flex-direction: column;
-            margin-right: 5rem;
+            margin-right: 5rem; */
+            padding-left: 2.3rem;
+            float: left;
+            width: 30%;
             .drai {
                 font-size: 1.6rem;
             }
@@ -32,11 +35,30 @@
     
 }
 
-.d-block {
+.carousel {
+    width: 70%;
+    float: right;
+}
+
+/* .d-block {
     object-fit: cover;
     max-width: 100%;
     width: 100%;
     max-height: 475px;
+} */
+
+.foto-car {
+    img {
+        width: 100%;
+        max-height: 475px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        // background-size: contain;
+        vertical-align: top;
+        // background-attachment: fixed;
+        // visibility: hidden;
+    }
 }
 
 /* Fin Presentacion  */
